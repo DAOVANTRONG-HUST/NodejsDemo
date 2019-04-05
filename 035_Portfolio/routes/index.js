@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/chi-tiet', function(req, res, next) {
-  res.render('chi-tiet-san-pham.ejs', { title: 'Trang chi tiet' });
+router.get('/chi-tiet/*.:idsanpham', function(req, res, next) {
+  res.render('chi-tiet-san-pham', {idsanpham: req.params.idsanpham });
 });
 
 module.exports = router;

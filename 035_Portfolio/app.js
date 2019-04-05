@@ -18,6 +18,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('javascripts',express.static(path.join(__dirname, '/javascripts')));
+app.use('/stylesheets',express.static(path.join(__dirname, '/stylesheets'))); // Được sử dụng khi đường dẫn có level2 thì phải định nghĩa ra riêng. VD: "http://localhost:3000/chi-tiet/Thiet-ke-logo-edu.1"
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
@@ -37,5 +39,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+// lấy dữ liệu từ file .json vào.
+app.locals.duLieuJson = require("./model/dulieu.json");
 
 module.exports = app;

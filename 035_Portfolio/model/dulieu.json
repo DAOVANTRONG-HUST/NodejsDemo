@@ -1,0 +1,54 @@
+{
+    "sanpham" : [
+        {
+            "id":1,
+            "title": "Website trongdv.vn",
+            "bigImage": "./images/sp1/1.jpg",
+            "productImage" : ["./images/sp1/2.jpg", "./images/sp1/3.jpg"],
+            "des": "Mục đích mà Facebook nhắm đến trong React là “”Learn Once, Write Anywhere”” – Có nghĩa là sau khi hoàn tất khóa học React JS, ngoài việc bạn thiết kế được layout web, bạn còn sẽ có nền tảng vững chắc để tiếp cận React Native (Mobile App) mà không cần phải mất nhiều thời gian.",
+            "client": "Edumall",
+            "role": "Coder",
+            "cat": "web_design",
+            "link": "http://fedu.vn",
+            "pathseo": "Thiet-ke-logo-edu"
+
+        },
+        {
+            "id":2,
+            "title": "Thiết kế logo",
+            "bigImage": "./images/sp2/1.jpg",
+            "productImage" : ["./images/sp2/2.jpg", "./images/sp2/3.jpg"],
+            "des": "– Sức mạnh khủng khiếp mà Facebook mang đến trong React, đó chính là mô hình DOM, làm tăng khả năng trình diễn các đối tượng trên nền web một cách hiệu quả & tốc độ mượt hơn bất kì Java Script Framework nào trước đây.",
+            "client": "fedu",
+            "role": "Designer",
+            "cat": "Branding",
+            "link": "http://zing.vn",
+            "pathseo": "Lap-trinh-website"
+        },
+        {
+            "id":3,
+            "title": "Thiết kế logo",
+            "bigImage": "./images/sp3/1.jpg",
+            "productImage" : ["./images/sp3/2.jpg", "./images/sp3/3.jpg"],
+            "des": "Học lập trình React js và Redux từ đầu, tạo ứng dụng fullstack với Node JS + React JS",
+            "client": "sis",
+            "role": "Artist",
+            "cat": "Backend",
+            "link": "http://vnexpress.vn",
+            "pathseo": "lap-trinh-mang"
+        },
+        {
+            "id":4,
+            "title": "Thiết kế chức năng",
+            "bigImage": "./images/sp4/1.jpg",
+            "productImage" : ["./images/sp4/2.jpg", "./images/sp4/3.jpg"],
+            "des": "Trước khi bắt đầu học làm web thì ban phải học HTML và CSS vì hai ngôn ngữ này giúp bạn xây dựng giao diện của website, đẹp hay xấu là phụ thuộc vào cách sử dụng và trình bày bổ cục hợp lý. Nhằm giúp bạn cũng cố lại các thẻ html thì trong phần này mình sẽ giới thiệu các thành phần thường được dùng nhất.",
+            "client": "toan",
+            "role": "Fontend dev",
+            "cat": "Web_dev",
+            "link": "http://microsoft.com",
+            "pathseo": "lap-trinh-android"
+        }
+        
+    ]
+}
