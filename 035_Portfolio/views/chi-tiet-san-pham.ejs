@@ -1,14 +1,18 @@
 <% include template/header %>
+<% duLieuJson.sanpham.forEach(function(spdetail){ %>
+    <% if(idsanpham == spdetail.id){%>
         <!-- lead -->
         <div class="ish-row ish-fullrow ish-lead">
-            <span class="ish-lead__caption ish-icon-up">Featured Image</span>
+            <span class="ish-lead__caption ish-icon-up"><%=spdetail.title%></span>
             <div class="ish-lead__image">
-                <img src="./images/header2.jpg" alt="wawererly design">
+                <img src="<%=spdetail.bigImage%>" alt="wawererly design">
             </div>
             <h1 class="ish-lead__headline">
-				<span class="ish-lead__headline-inner"><%=idsanpham%><br>Design</span>
+                <span class="ish-lead__headline-inner"><%=spdetail.title%></span>
             </h1>
         </div>
+
+        <%}})%>
         <!-- lead end -->
 
 
